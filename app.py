@@ -1,3 +1,4 @@
+import html
 import io
 import json
 import os
@@ -553,3 +554,4 @@ if pdf_bytes is not None:
                 st.dataframe(pd.DataFrame(table_rows), use_container_width=True)
 else:
     st.info("👆 Please upload a PDF file using the file uploader above to extract text and explore metadata.")
+
